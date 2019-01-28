@@ -1,5 +1,12 @@
 # CPS506-Smalltalk
 
+The package im using is called "Bridge"
+all other names are according to his specifications here:https://cps506.scs.ryerson.ca/w2019/Assignments/a1.html
+
+
+
+
+
 Hey man could you send me your ryerson email lmao. I dont know how to contact you so hopefully you see this! 
 
 I started a google sheets doc just to make a layout of all the classes and how they talk to eachother.
