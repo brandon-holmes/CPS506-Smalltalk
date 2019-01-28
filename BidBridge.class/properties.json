@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "BrandonHolmes 1/27/2019 16:37",
+	"super" : "Object",
+	"category" : "Bridge",
+	"classinstvars" : [
+		"anOrderedCollection",
+		"len",
+		"permSize",
+		"rand",
+		"cards"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"perm",
+		"permSize",
+		"cards"
+	],
+	"name" : "BidBridge",
+	"type" : "normal"
+}
