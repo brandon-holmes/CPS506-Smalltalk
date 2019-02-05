@@ -1,12 +1,12 @@
 {
 	"instance" : {
-		"initializeTEST" : "FrancescoCommisso 1/31/2019 15:05",
+		"suits" : "FrancescoCommisso 1/29/2019 18:26",
 		"allCards" : "FrancescoCommisso 1/29/2019 18:24",
 		"clubs" : "FrancescoCommisso 1/29/2019 18:24",
 		"add:" : "FrancescoCommisso 1/29/2019 18:24",
+		"initialize" : "BrandonHolmes 2/1/2019 14:20",
 		"organize" : "FrancescoCommisso 1/29/2019 18:26",
 		"spades" : "FrancescoCommisso 1/29/2019 18:26",
-		"suits" : "FrancescoCommisso 1/29/2019 18:26",
 		"diamonds" : "FrancescoCommisso 1/29/2019 18:30",
 		"hearts" : "FrancescoCommisso 1/29/2019 18:24"
 	},

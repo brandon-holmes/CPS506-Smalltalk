@@ -1,4 +1,4 @@
 adding
 name
-	Transcript show: name.
+	"Transcript show: name."
 	^ name
