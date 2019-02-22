@@ -1,6 +1,6 @@
 printing
 printOn: writeOut
-	| playerList wSpacing wSpace nsSpacing nsSpace w tmp tmp2|
+	| playerList wSpacing wSpace nsSpacing nsSpace w tmp tmp2 bids |
 	playerList:= self board players.
 	wSpacing:= self bigSuit: (playerList at:2).
 	nsSpacing := self bigSuit: (playerList at:3).
@@ -13,7 +13,7 @@ printOn: writeOut
 	writeOut = Transcript
 		ifTrue: [ w:= String new writeStream.
 		]
-		ifFalse:[ w:= writeOut new writeStream
+		ifFalse:[ w:= writeOut asFile writeStream.
 			].
 	"+++++++++++++++++++++++++++++++++++++++++++++++NORTH+++++++++++++++++++++++++++++++++++++++++++"
 	w
@@ -95,9 +95,35 @@ printOn: writeOut
 		nextPutAll: 'C '.
 		(self makeValue: ((playerList at: 1) hand clubs)) do:[ :i | w nextPutAll: (i asString); 			nextPutAll:' '].
 		
- "+++++++++++++++++++++++++++++++++++++++++++++++WEST/EAST+++++++++++++++++++++++++++++++++++++++++++"
+ "+++++++++++++++++++++++++++++++++++++++++++++++Bids+++++++++++++++++++++++++++++++++++++++++++"
 					
-		Transcript show: (w contents).
+		bids:= OrderedCollection new.
+		bids:= #('Pass' '4c' '5c' 'Pass' 'Pass' 'Pass').
+		w
+		cr;			
+		nextPutAll: 'South West North East';
+		cr.
+		1 to: (bids size) do: [:i |
+			| space |
+			w
+			nextPutAll: (bids at:i).
+			(i \\ 2 = 1) 
+			ifTrue:[
+				((bids at: i) = 'Pass')
+					ifTrue: [w nextPutAll: '  '.]
+					ifFalse: [w nextPutAll: '    ' ].]
+			ifFalse: [ 
+						((bids at: i)~= 'Pass')
+						ifTrue: [w nextPutAll:'   '] ].							
+			[w nextPutAll: ' '.].
+			(i \\4 = 0)
+			ifTrue: [w cr.].
+				
+		].
+		w flush.	
+		Transcript show: writeOut.
+		writeOut = Transcript
+		ifTrue:[Transcript show: (w contents).].
 					
 					
 					
