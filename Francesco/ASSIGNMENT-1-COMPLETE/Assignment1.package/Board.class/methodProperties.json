@@ -1,0 +1,18 @@
+{
+	"instance" : {
+		"startBidding" : "FrancescoCommisso 2/23/2019 14:01",
+		"deck:" : "FrancescoCommisso 1/29/2019 18:20",
+		"checkPasses:" : "FrancescoCommisso 2/23/2019 13:46",
+		"deck" : "FrancescoCommisso 1/29/2019 18:19",
+		"initializeTest" : "FrancescoCommisso 2/5/2019 15:03",
+		"initialize" : "FrancescoCommisso 2/23/2019 13:35",
+		"numberOfPlayers" : "FrancescoCommisso 1/29/2019 18:20",
+		"players" : "FrancescoCommisso 1/29/2019 18:21",
+		"new" : "FrancescoCommisso 2/5/2019 15:00",
+		"declarer:" : "FrancescoCommisso 2/7/2019 12:17",
+		"bids" : "FrancescoCommisso 2/5/2019 14:39",
+		"deckSize" : "FrancescoCommisso 1/29/2019 18:20",
+		"deal" : "FrancescoCommisso 1/30/2019 21:19"
+	},
+	"class" : { }
+}

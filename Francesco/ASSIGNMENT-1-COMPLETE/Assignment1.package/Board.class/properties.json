@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "FrancescoCommisso 2/23/2019 15:21",
+	"super" : "Object",
+	"category" : "Assignment1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"players",
+		"deck",
+		"bids",
+		"declarer"
+	],
+	"name" : "Board",
+	"type" : "normal"
+}

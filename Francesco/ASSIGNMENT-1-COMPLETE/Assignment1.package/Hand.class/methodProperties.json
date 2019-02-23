@@ -1,0 +1,20 @@
+{
+	"instance" : {
+		"add:" : "FrancescoCommisso 1/29/2019 18:24",
+		"diamonds" : "FrancescoCommisso 1/29/2019 18:30",
+		"hearts" : "FrancescoCommisso 1/29/2019 18:24",
+		"spades" : "FrancescoCommisso 1/29/2019 18:26",
+		"noTrump:" : "FrancescoCommisso 2/5/2019 17:49",
+		"clubs" : "FrancescoCommisso 1/29/2019 18:24",
+		"initialize" : "FrancescoCommisso 2/7/2019 11:18",
+		"points:" : "FrancescoCommisso 2/5/2019 20:11",
+		"longestSuit" : "FrancescoCommisso 2/5/2019 20:01",
+		"organize" : "FrancescoCommisso 2/7/2019 11:25",
+		"suits" : "FrancescoCommisso 1/29/2019 18:26",
+		"noTrump" : "FrancescoCommisso 2/7/2019 12:23",
+		"points" : "FrancescoCommisso 2/6/2019 20:19",
+		"sortSuits" : "FrancescoCommisso 2/7/2019 11:24",
+		"allCards" : "FrancescoCommisso 1/29/2019 18:24"
+	},
+	"class" : { }
+}
