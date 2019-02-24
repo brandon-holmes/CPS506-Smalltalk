@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "FrancescoCommisso 2/23/2019 15:19",
+	"super" : "Object",
+	"category" : "Assignment1",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"value",
+		"player",
+		"suit"
+	],
+	"name" : "Bid",
+	"type" : "normal"
+}
