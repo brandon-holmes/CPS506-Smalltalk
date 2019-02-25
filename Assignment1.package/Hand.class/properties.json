@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "FrancescoCommisso 2/23/2019 15:22",
 	"super" : "Object",
 	"category" : "Assignment1",
 	"classinstvars" : [ ],
@@ -11,7 +11,9 @@
 		"hearts",
 		"diamonds",
 		"spades",
-		"suits"
+		"suits",
+		"noTrump",
+		"points"
 	],
 	"name" : "Hand",
 	"type" : "normal"

@@ -1,5 +1,5 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "FrancescoCommisso 2/23/2019 15:21",
 	"super" : "Object",
 	"category" : "Assignment1",
 	"classinstvars" : [ ],
@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"players",
-		"deck"
+		"deck",
+		"bids",
+		"declarer"
 	],
 	"name" : "Board",
 	"type" : "normal"

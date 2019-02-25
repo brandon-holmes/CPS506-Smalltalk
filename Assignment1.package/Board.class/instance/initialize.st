@@ -1,11 +1,18 @@
 initialization
 initialize
-	| tmp1 tmp2 tmp3 tmp4 |
-	tmp1 := Player new name: 'North'.
-	tmp3 := Player new name: 'East'.
-	tmp2 := Player new name: 'South'.
-	tmp4 := Player new name: 'West'.
-	players := {tmp2.
-	tmp4.
-	tmp1.
-	tmp3}
+	| p1 p2 p3 p4 |
+	"Transcript show: ''.
+	beenOpened := false."
+	bids := OrderedCollection new.
+	p1 := Player new name: 'North'.
+	p3 := Player new name: 'East'.
+	p2 := Player new name: 'South'.
+	p4 := Player new name: 'West'.
+	
+	p1 teammate: p2.
+	p2 teammate: p1.
+	
+	p3 teammate: p4.
+	p4 teammate: p3.
+	
+	players := {p2.p4.p1.p3}

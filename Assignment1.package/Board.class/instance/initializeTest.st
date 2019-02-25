@@ -1,7 +1,6 @@
 initialization
 initializeTest
 	| p1 p2 p3 p4 |
-	Transcript show: 'init'.
 	bids := Array new.
 	p1 := Player new name: 'North'.
 	p3 := Player new name: 'East'.

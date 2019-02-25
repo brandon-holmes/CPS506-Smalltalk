@@ -1,0 +1,1 @@
+This tests thew players attributes such as name and hand.

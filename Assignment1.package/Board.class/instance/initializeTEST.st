@@ -1,11 +1,12 @@
 initialization
-initializeTEST
-	| tmp1 tmp2 tmp3 tmp4 |
-	tmp1 := Player new name: 'North'.
-	tmp3 := Player new name: 'East'.
-	tmp2 := Player new name: 'South'.
-	tmp4 := Player new name: 'West'.
-	players := {tmp2.
-	tmp4.
-	tmp1.
-	tmp3}
+initializeTest
+	| p1 p2 p3 p4 |
+	bids := Array new.
+	p1 := Player new name: 'North'.
+	p3 := Player new name: 'East'.
+	p2 := Player new name: 'South'.
+	p4 := Player new name: 'West'.
+	players := {p2.
+	p4.
+	p1.
+	p3}

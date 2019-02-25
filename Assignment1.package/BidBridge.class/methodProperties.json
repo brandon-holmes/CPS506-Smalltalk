@@ -1,14 +1,15 @@
 {
 	"instance" : {
+		"bigSuit:" : "BrandonHolmes 2/24/2019 13:45",
 		"play" : "FrancescoCommisso 1/30/2019 20:18",
-		"withPermutation:" : "FrancescoCommisso 1/30/2019 21:20",
-		"printOn:" : "BrandonHolmes 2/22/2019 16:52",
-		"initialize" : "BrandonHolmes 2/1/2019 14:20",
-		"tenCheck:" : "BrandonHolmes 2/4/2019 22:47",
-		"makeSpace:" : "BrandonHolmes 2/4/2019 22:28",
-		"bigSuit:" : "BrandonHolmes 2/4/2019 22:16",
-		"board" : "FrancescoCommisso 1/29/2019 18:18",
-		"makeValue:" : "BrandonHolmes 2/4/2019 17:57"
+		"withPermutation:" : "FrancescoCommisso 2/23/2019 15:08",
+		"makeSpace:" : "BrandonHolmes 2/24/2019 13:46",
+		"initializeTest" : "FrancescoCommisso 2/5/2019 15:02",
+		"initialize" : "FrancescoCommisso 2/7/2019 11:18",
+		"printOn:" : "BrandonHolmes 2/24/2019 15:08",
+		"tenCheck:" : "BrandonHolmes 2/24/2019 13:47",
+		"makeValue:" : "BrandonHolmes 2/24/2019 13:46",
+		"board" : "FrancescoCommisso 1/29/2019 18:18"
 	},
 	"class" : { }
 }
