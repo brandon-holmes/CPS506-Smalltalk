@@ -1,0 +1,1 @@
+This tests the correct order and amount of players on the board.

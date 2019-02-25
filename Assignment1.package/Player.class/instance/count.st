@@ -2,4 +2,5 @@ adding
 count
 	|pc|
 	pc := PointCounter new.
-	points := pc countPoints: self hand.
+	self hand points: (pc countPoints: self hand).
+	self hand noTrump: (pc countNoTrump: self hand).

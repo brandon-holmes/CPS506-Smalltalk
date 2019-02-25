@@ -3,6 +3,6 @@ withPermutation: cardList
 	| deck |
 	deck := cardList == false
 		ifFalse: [ Deck new customDeck: cardList ]
-		ifTrue: [ Deck new fullDeck ].
+		ifTrue: [ Deck new fullDeck shuffle].
 	board deck: deck cards.
-	self board deal
+	self board deal startBidding.

@@ -97,19 +97,20 @@ printOn: writeOut
 		
  "+++++++++++++++++++++++++++++++++++++++++++++++Bids+++++++++++++++++++++++++++++++++++++++++++"
 					
-		bids:= OrderedCollection new.
-		bids:= #('Pass' '4c' '5c' 'Pass' 'Pass' 'Pass').
+		
+		bids:= self board bids.
 		w
 		cr;			
 		nextPutAll: 'South West North East';
 		cr.
 		1 to: (bids size) do: [:i |
-			| space |
 			w
-			nextPutAll: (bids at:i).
+			nextPutAll: (bids at:i)value asString.
+			(bids at:i)suit=nil
+			ifFalse: [ w nextPutAll: (bids at:i)suit.  ].			
 			(i \\ 2 = 1) 
 			ifTrue:[
-				((bids at: i) = 'Pass')
+				((bids at: i)value = 'pass')
 					ifTrue: [w nextPutAll: '  '.]
 					ifFalse: [w nextPutAll: '    ' ].]
 			ifFalse: [ 
@@ -121,7 +122,6 @@ printOn: writeOut
 				
 		].
 		w flush.	
-		Transcript show: writeOut.
 		writeOut = Transcript
 		ifTrue:[Transcript show: (w contents).].
 					

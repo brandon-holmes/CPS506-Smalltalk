@@ -10,7 +10,7 @@ checkOpening:  aBids
 	(aBids size <4) ifTrue:[
 		1 to: aBids size do: [ :b |
 			(aBids at: b)  value = 'pass'  ifFalse:[
-				Transcript show: 'NON PASS FOUND. I DO NOT OPEN'.
+				"Transcript show: 'NON PASS FOUND. I DO NOT OPEN'."
 				^false].
 		].
 		^true.

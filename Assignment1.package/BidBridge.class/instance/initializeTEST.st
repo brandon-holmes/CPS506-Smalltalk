@@ -1,5 +1,5 @@
 instance initalization
-initializeTEST
+initializeTest
 	board isNil
 		ifFalse: [ ^ self ].
 	board := Board new.

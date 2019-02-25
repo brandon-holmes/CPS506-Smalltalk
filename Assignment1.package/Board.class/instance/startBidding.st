@@ -10,7 +10,7 @@ startBidding
 		player := player \\ 5.
 		player = 0 ifTrue:[player:=1].
 		failsafe := failsafe + 1.
-		failsafe >=100 ifTrue:[Transcript show: 'failsafe'. over := 		true.].
+		failsafe >=100 ifTrue:["Transcript show: 'failsafe'". over := 		true.].
 		self bids addFirst: (bidMaker makeBid:(self players at: 			player )bids:self bids ).
 		player := player + 1.
 		(self checkPasses: self bids) ifTrue:  [over:=true.].
